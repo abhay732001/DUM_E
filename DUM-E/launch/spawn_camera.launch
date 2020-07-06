@@ -7,7 +7,7 @@
     <arg name="pitch" default="0"/>
     <arg name="yaw" default="0"/>
 
-    <include file="$(find kinect_robot)/launch/spawn_sdf.launch">
+    <include file="$(find DUM-E)/launch/spawn_sdf.launch">
         <arg name="robot_name" value="kinect" />
         <arg name="x" value="$(arg x)" />
         <arg name="y" value="$(arg y)" />
@@ -15,6 +15,6 @@
         <arg name="roll" value="$(arg roll)"/>
         <arg name="pitch" value="$(arg pitch)"/>
         <arg name="yaw" value="$(arg yaw)" />
-        <arg name="sdf_robot_file" value="$(find kinect_robot)/models/kinect_camera/model.sdf" />
+        <arg name="sdf_robot_file" value="$(find DUM-E)/models/kinect_camera/model.sdf" />
     </include>
 </launch>
