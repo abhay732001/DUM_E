@@ -2,7 +2,7 @@
 
   <arg name="robot_name"                    default=""/>
   <arg name="use_default_rviz"              default="true"/>
-  <arg name="rvizconfig"                    default="$(find kinect_robot)/rviz/default.rviz" />
+  <arg name="rvizconfig"                    default="$(find DUM-E)/rviz/default.rviz" />
 
 
   <node if="$(arg use_default_rviz)"
